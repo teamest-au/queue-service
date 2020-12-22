@@ -1,0 +1,27 @@
+{
+  "name": "@teamest/queue-service",
+  "version": "0.0.1",
+  "description": "Queue abstraction also supporting health checks and connection retries",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamest-au/queue-service.git"
+  },
+  "author": "Daniel Emery <danielremery@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamest-au/queue-service/issues"
+  },
+  "homepage": "https://github.com/teamest-au/queue-service#readme",
+  "devDependencies": {
+    "@danielemeryau/prettier-config": "0.0.6",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@danielemeryau/simple-rabbitmq": "^0.3.0",
+    "@teamest/process-manager": "^0.2.0"
+  }
+}
